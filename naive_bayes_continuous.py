@@ -1,6 +1,9 @@
 import pandas as pd
 import numpy as np
 
+'''
+from chapter 2 computer exercises. 
+'''
 def getk(df,clss):
     m = len(df[df['clss'].str.contains(clss)])
     k =1/(np.sqrt(2*np.pi)**m)
