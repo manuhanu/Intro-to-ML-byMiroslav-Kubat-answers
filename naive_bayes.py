@@ -1,6 +1,9 @@
 import numpy as np
 import pandas as pd
-
+'''
+this is a problem from chapter 2 of the book. using dataframes makes it simple
+since you can get the conditional probabilities rather easily using crosstab function
+'''
 df = pd.read_csv('pies.csv',header =0)
 df = df.rename(columns ={'class':'clss'})
 
