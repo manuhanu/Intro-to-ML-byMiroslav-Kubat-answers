@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 '''
-from chapter 2 computer exercises. 
+from Kubat chapter 2 computer exercises. 
 '''
 def getk(df,clss):
     m = len(df[df['clss'].str.contains(clss)])
